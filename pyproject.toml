@@ -1,0 +1,8 @@
+[project]
+name = "vale-jsonlt"
+version = "0.0.0"
+description = "Vale styles and vocabulary for JSONLT projects."
+readme = "README.md"
+requires-python = ">=3.14"
+classifiers = ["Private :: Do Not Upload"]
+dependencies = []
