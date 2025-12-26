@@ -22,6 +22,7 @@ enum
 Erdtman
 [fF]uzzer
 [fF]uzzers
+[gG]it's
 hashable
 heaptrack
 JSONLT's
@@ -41,6 +42,7 @@ pyperf
 [pP]recompact
 Riak
 RocksDB
+rollout
 Rundgren
 selectivities
 [sS]erializable
@@ -68,3 +70,18 @@ syscall
 threadsafe
 truthy
 untrusted
+[wW]asm
+wasm-bindgen
+wasm-pack
+[sS]erde
+[tT]okio
+[cC]lippy
+[rR]ustfmt
+[cC]rate
+[cC]rates
+MSRV
+cdylib
+rlib
+[cC]riterian
+proptest
+tarpaulin
