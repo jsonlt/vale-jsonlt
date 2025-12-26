@@ -1,4 +1,5 @@
 (jsonlt|JSONLT)
+JSON Lines Table
 accessor
 APIs
 [aA]sync
