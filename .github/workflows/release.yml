@@ -15,7 +15,11 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Create Vale Package
-        run: zip -r JSONLT.zip styles
+        run: |
+          mkdir -p dist
+          echo "StylesPath = styles" > dist/.vale.ini
+          cp -r styles dist/
+          cd dist && zip -r ../JSONLT.zip .vale.ini styles
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
