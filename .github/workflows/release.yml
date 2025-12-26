@@ -16,10 +16,10 @@ jobs:
 
       - name: Create Vale Package
         run: |
-          mkdir -p dist
-          echo "StylesPath = styles" > dist/.vale.ini
-          cp -r styles dist/
-          cd dist && zip -r ../JSONLT.zip .vale.ini styles
+          mkdir -p dist/JSONLT
+          echo "StylesPath = styles" > dist/JSONLT/.vale.ini
+          cp -r styles dist/JSONLT/
+          cd dist && zip -r ../JSONLT.zip JSONLT
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
