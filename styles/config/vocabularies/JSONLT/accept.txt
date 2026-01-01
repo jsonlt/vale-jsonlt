@@ -86,3 +86,54 @@ rlib
 [cC]riterian
 proptest
 tarpaulin
+[cC]onformant
+Postel's
+
+# Author names (from spec references)
+Bradner
+Bray
+Enghardt
+Fairhurst
+Hansen
+Josefsson
+Klensin
+Leiba
+Pauly
+Tiesel
+Trammell
+Welzl
+Yegge
+Yergeau
+
+# Example identifiers (from spec and tests)
+charlie
+globex
+tx
+openWith
+
+# Technical terms
+BOMs
+booleans
+Boolean
+camelCase
+IOError
+impl
+Infra's
+interdependencies
+interoperate
+nullable
+optionalParam
+precomposed
+pseudocode
+threadSafe
+upserts
+upsert
+
+# Conformance test schema terms
+actual_state
+optionalFeatures
+outputExact
+outputMatches
+outputNotMatches
+suiteVersion
+url
